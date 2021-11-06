@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="title" content="Whatsapp Messages">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Send WhatsApp message without saving number. Just enter the number here." />
+  <meta name="keywords"
+    content="whatsapp message without saving number,whatsapp without saving number,send whatsapp message without saving number,how to send whatsapp message without saving number,how to whatsapp without saving number,how to send message on whatsapp without saving number,how to send whatsapp message without saving contact,how to send message in whatsapp without saving number,whatsapp send message without adding contact,whatsapp without adding number,how to send message without save number in whatsapp">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="2 days">
+  <link rel="icon" type="image/png" href="/img/favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
+  <style>
+
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <title>Whatsapp Messages</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-custom navbar-custom py-3 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand"><b>
+          <h2>Whatsapp Messages.net</h2>
+        </b></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#questions" class="nav-link">FAQ's</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section class="text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Send Whatsapp Message. <span class="text-warning"> Without Saving Number. </span></h1>
+
+
+          <!-- Newsletter -->
+          <section class="bg-custom text-dark p-5 py-3">
+            <div class="container">
+              <div class="d-md-flex justify-content-between align-items-center">
+                <div class="container">
+                  <form id="login" onsubmit="process(event)">
+                    <p class="lead my-4">Easy and Simple. Just 2 steps.</p>
+                    <p class="lead my-4">1-Select the country of your contact.</p>
+                    <p class="lead my-4">2-Enter the number you want to message:</p>
+                    <input id="phone" type="tel" name="phone" pattern="\d{10}" required />
+
+                    <!-- <input type="submit" class="btn btn-custom btn-lg " value=""> -->
+                    <button class="btn btn-custom btn-lg" type="submit"><svg class="my-float" viewBox="0 0 24 24"
+                        width="24" height="24" class="">
+                        <path fill="currentColor"
+                          d="M1.101 21.757L23.8 12.028 1.101 2.3l.011 7.912 13.623 1.816-13.623 1.817-.011 7.912z">
+                        </path>
+                      </svg> </button>
+                  </form>
+                  <div class="alert alert-error" style="display: none;"></div>
+                </div>
+              </div>
+
+            </div>
+
+          </section>
+          <!-- <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">
+            Start The Enrollment
+          </button> -->
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="" />
+      </div>
+      <h3>Send Whatsapp Message Without Adding Contact Online Now.</h3>
+      <p class="lead my-4">
+        Done with saving new contact each time you send Whatsapp Message? Your gateway to quick texting to any number
+        without saving it is
+        here.
+      </p>
+    </div>
+  </section>
+
+
+
+
+  <!-- Question Accordion -->
+  <section id="questions" class="p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      <div class="accordion accordion-flush" id="questions">
+        <!-- Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-one">
+              How to send WhatsApp message without saving contact?
+            </button>
+          </h2>
+          <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              1-Select the country of your contact.<br>
+              2-Enter the number you want to message in the dialog box.<br>
+              3- Click on the send button(Green icon with an arrow).
+
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-two">
+              Phone number shared via URL is Invalid
+            </button>
+          </h2>
+          <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Please check the phone number and selected country again.
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-three">
+              Can I message international Numbers?
+            </button>
+          </h2>
+          <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Any country number and all the languages are supported.
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-four">
+              Does it support PC/Laptop?
+            </button>
+          </h2>
+          <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Yes. It supports Windows,Mac, Android and IoS. Whatsapp application should be installed on the system on
+              which you are trying to message the contact.
+            </div>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-five">
+              Do you save my information?
+            </button>
+          </h2>
+          <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              None of your information is saved of stored on our server. The phone number is directly sent to the
+              whatsapp servers without any preprocessing for the best performance.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2020 Whatsapp Messages</p>
+      <center>How to send message on whatsapp without saving number.</center> <br>
+      Privacy: We solely use standard web-server logging, for a better experience. There are no cookies used. Our server
+      does not save or store any phone numbers. The WhatsApp servers receive phone numbers directly. There isn't any
+      middleware. This service is in no way affiliated with or by WhatsApp/Facebook.
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+<script>
+  function getIp(callback) {
+    fetch('https://ipinfo.io/json?token=d9f3bbde1ad990', { headers: { 'Accept': 'application/json' } })
+      .then((resp) => resp.json())
+      .catch(() => {
+        return {
+          country: 'US',
+        };
+      })
+      .then((resp) => callback(resp.country));
+  }
+
+  const phoneInputField = document.querySelector('#phone');
+
+  // const phoneInput = window.intlTelInput(phoneInputField, {
+  //   initialCountry: "auto",
+  //   geoIpLookup: getIp,
+  //   utilsScript:
+  //     "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js",
+  // });
+  const phoneInput = window.intlTelInput(phoneInputField, {
+    // initialCountry: "auto",
+    // geoIpLookup: getIp,
+    utilsScript:
+      "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js",
+  });
+  const info = document.querySelector(".alert-info");
+
+  function process(event) {
+    event.preventDefault();
+
+    const phoneNumber = phoneInput.getNumber();
+    window.open(`http://api.whatsapp.com/send?phone=${phoneNumber}`, '_blank');
+    // location.href = `http://api.whatsapp.com/send?phone=${phoneNumber}`
+    // `http://api.whatsapp.com/send?phone=${phoneNumber}`
+    // info.style.display = "";
+    // info.innerHTML = `You will be messaging the number: <strong>${phoneNumber}</strong> on WhatsApp`;
+  }
+</script>
+
+</html>
